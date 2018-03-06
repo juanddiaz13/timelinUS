@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Arial', sans-serif;
+	background: #e9f0f5;
+}
+
+p{
+	margin: 10px 0;
+}
+header{
+	max-width: 100%;
+	margin: 0 auto;
+	background-color: black;
+}
+header::after{
+	content: " ";
+	clear: both;
+	display: block;
+	visibility: none;
+}
+button{
+    position: inherit;
+    width: 200px;
+    left: 40%;
+    transform: translateX(280%);
+    color: white;
+    border-radius: 10px;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 250;
+    background-color: black;
+    margin-bottom: 15px;
+    
+}
+.static-image{
+	float: left;
+	max-height: 100px;
+}
+.static-info h1{
+	padding-top: 200px;
+	font-size: 40px;
+}
+
+.static-info{
+	text-align: center;
+	margin-top: 0px;
+	min-height: 1000px;
+	background: url(citieswp.jpg) no-repeat;
+}
+
+.static-info2{
+	text-align: center;
+	margin-top: 100px;
+	padding-top: 25px;
+	min-height: 1000px;
+	background:url(poo.jpg) no-repeat;
+}
+
+.conclusion{
+	
+	display: none;
+}
+.poo{
+	
+	width: 1400px;
+	height: 1000px;
+}
+
+.static-text{
+	margin: 0 auto;
+	background:rgba(255,255,255,0.5);
+	border-radius: 15px;
+	margin-top: 30px;
+	font-size: 18px;
+	padding: 8px;
+	max-width: 50%;
+	text-align: justify;
+}
+
+.static-text2{
+
+	margin: 0 auto;
+	background:rgba(255,255,255,0.8);
+	border-radius: 15px;
+	margin-top: 30px;
+	font-size: 18px;
+	padding: 8px;
+	max-width: 50%;
+	text-align: justify;
+}
+
+.im-heading{
+	
+	width: 100%;
+	max-height: 1000px;
+}
+.tm-containerr{
+	max-width: 100%;
+	height: 50px;
+	margin: 0 auto;
+	margin-bottom: 0px;
+}
+.tm-nav{
+	text-align: center;
+	margin-right: 1%;
+	padding-top: 14px;
+	
+}
+.tm-nav ul li{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.tm-nav  ul li a{
+	padding: 10px 20px;
+	text-decoration: none;
+	color:white;
+	line-height: 10px;
+}
+.tm-nav ul li a:hover{
+	color: yellow;
+}
+.container{
+	width: 1100px;
+	overflow: auto;
+	margin: auto;
+	margin-bottom: 0px;
+}
+
+.timeline{
+	background:url(linea.jpg) repeat-y 50% 0;
+	min-height: 700px;
+	display: none;
+}
+
+.tl-block{
+	position: relative;
+	width: : 100%;
+	min-height: 50px;
+	margin-bottom: 5px;
+}
+
+.tl-year div{
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	display: block;
+	padding-top: 23px;
+	text-align: center;
+}
+
+.image-r{
+	float: right;
+}
+
+.tm-footer{
+	clear: both;
+	background: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+.tl-event > div {
+	width: 45%;
+	position: inherit;
+}
+
+.tl-event div div{
+	background:#fff;
+	border-radius: 10px;
+	padding: 15px;
+
+}
+
+.tl-event div.event-r {
+	float: right;
+}
+
+.tl-event div.event-l {
+	float: left;
+	
+}
+.tl-event{
+	background: url(suceso.png) no-repeat 50% 0;
+	margin: auto;
+	width: 100%;
+	overflow: hidden;
+	visibility: visible;
+}
+
+.tl-year{
+	background: url(bola.jpg) no-repeat 50% 0;
+	display:block;
+	width: 105px;
+	height: 105px;
+	text-align: center;
+	padding-top: 15px;
+	margin: auto;
+
+}
